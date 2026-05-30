@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-
+#111
 # 步骤1: 数据准备
 transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.1307,), (0.3081,))])  # 标准化
 train_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
